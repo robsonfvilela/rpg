@@ -3,6 +3,7 @@ title: "QUILL"
 #author: "Tristan O'Malley"
 #date: "2023-04-21"
 #date-modified: "5/23/2021"
+categories: [RPG Solo, QUILL]
 ---
 
 <!-- ![](thumbnail.jpg) -->

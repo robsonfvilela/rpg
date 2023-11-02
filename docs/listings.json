@@ -10,10 +10,10 @@
   {
     "listing": "/index.html",
     "items": [
-      "/aventura-solo/00-aventura-solo.html",
       "/rpg-solo/quill.html",
       "/aventura-solo/01-quill.html",
-      "/rpg-solo/00-rpg-solo.html"
+      "/rpg-solo/00-rpg-solo.html",
+      "/aventura-solo/00-aventura-solo.html"
     ]
   },
   {

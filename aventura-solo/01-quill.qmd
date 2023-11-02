@@ -3,7 +3,7 @@ title: "QUILL, uma aventura apocalíptica: 1ª Cena"
 #author: "Tristan O'Malley"
 date: "2023-11-01"
 #date-modified: "5/23/2021"
-categories: [RPG Solo, Quill, Aventura Solo]
+categories: [RPG Solo, QUILL, Aventura Solo]
 ---
 
 <!-- ![](thumbnail.jpg) -->

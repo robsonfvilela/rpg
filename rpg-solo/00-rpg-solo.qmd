@@ -1,5 +1,5 @@
 ---
-title: "RPG Solo"
+title: "✎ RPG Solo"
 #author: "Tristan O'Malley"
 date: "2023-11-01"
 #date-modified: "5/23/2021"
