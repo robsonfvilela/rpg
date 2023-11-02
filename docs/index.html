@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Prof.&nbsp;Robson">
+<meta name="author" content="Robson">
 
-<title>Língua Portuguesa</title>
+<title>🎲 RPG</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,18 +31,20 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./bim01/bim01_.html" rel="next">
+<link href="./rpg-solo/rpg-solo.html" rel="next">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -63,7 +65,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -91,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Língua Portuguesa</a> 
+      <a href="./">🎲 RPG</a> 
         <div class="sidebar-tools-main">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
 </div>
@@ -112,8 +145,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./bim01/bim01_.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1º BIMESTRE</span></a>
+            <a href="./rpg-solo/rpg-solo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">RPG Solo</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Alternar seção">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -121,7 +154,43 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bim01/bim01_cap01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Página em Branco</span></a>
+  <a href="./rpg-solo/dominus.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Dominus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rpg-solo/quill.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">QUILL</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./aventuras-solo/aventuras-solo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aventuras Solo</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aventuras-solo/dominus.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Dominus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aventuras-solo/quill.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Quill, uma aventura apocalíptica (1º Cenário)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aventuras-solo/bim02_cap01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">QUILL, uma aventura apocalíptica: 1ª Cena</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aventuras-solo/bim02_cap02.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Proposta de Carta Argumentativa</span></a>
   </div>
 </li>
       </ul>
@@ -130,11 +199,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./bim02/bim02_.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2º BIMESTRE</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Alternar seção">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Alternar seção">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./bim02/bim02_cap01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Carta Argumentativa (exemplo)</span></a>
@@ -195,13 +264,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#prefácio" id="toc-prefácio" class="nav-link active" data-scroll-target="#prefácio">Prefácio</a></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(18)</span></div><div class="category" data-category="Aventura Solo">Aventura Solo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quill">Quill <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RPG Solo">RPG Solo <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Língua Portuguesa</h1>
+<h1 class="title">🎲 RPG</h1>
 </div>
 
 
@@ -211,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Autor</div>
     <div class="quarto-title-meta-contents">
-             <p>Prof.&nbsp;Robson </p>
+             <p>Robson </p>
           </div>
   </div>
     
@@ -259,9 +328,419 @@ To learn more about Quarto books visit <https://quarto.org/docs/books>.
 -->
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1686573352755" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_.html">
+<h3 class="no-anchor listing-title">
+2º BIMESTRE
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Lista de…<sup></sup>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1682465162739" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_cap06.html"> <p class="card-img-top"><img src="bim02/img/augusto-dos-anjos.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_cap06.html">
+<h3 class="no-anchor listing-title">
+Augusto dos Anjos
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+O conteúdo desta página foi retirado de <span class="citation" data-cites="alvesVeredasPalavraVol2016c">ALVES e MARTIN (2016)</span> (pp.&nbsp;85-86).
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_cap06.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1698939721040" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./aventuras-solo/aventuras-solo.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./aventuras-solo/aventuras-solo.html">
+<h3 class="no-anchor listing-title">
+Aventuras Solo
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./aventuras-solo/aventuras-solo.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1682465868307" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_cap01.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_cap01.html">
+<h3 class="no-anchor listing-title">
+Carta Argumentativa (exemplo)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Uberlândia, 9 de agosto de 2000.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_cap01.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1698939490159" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./rpg-solo/dominus.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./rpg-solo/dominus.html">
+<h3 class="no-anchor listing-title">
+Dominus
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+ERRO 404
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./rpg-solo/dominus.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-file-modified-sort="1698939490159" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./aventuras-solo/dominus.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./aventuras-solo/dominus.html">
+<h3 class="no-anchor listing-title">
+Dominus
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+ERRO 404
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./aventuras-solo/dominus.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-file-modified-sort="1682465430546" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_cap07.html"> <p class="card-img-top"><img src="bim02/img/euclides-da-cunha.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_cap07.html">
+<h3 class="no-anchor listing-title">
+Euclides da Cunha
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+O conteúdo desta página foi retirado de <span class="citation" data-cites="alvesVeredasPalavraVol2016c">ALVES e MARTIN (2016)</span> (pp.&nbsp;86-89).
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_cap07.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-file-modified-sort="1685146278587" data-listing-reading-time-sort="17">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_cap08.html"> <p class="card-img-top"><img src="bim02/img/lima-barreto.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_cap08.html">
+<h3 class="no-anchor listing-title">
+Lima Barreto
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+O conteúdo desta página foi retirado de <span class="citation" data-cites="alvesVeredasPalavraVol2016c">ALVES e MARTIN (2016)</span> (pp.&nbsp;91-93).
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_cap08.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-listing-file-modified-sort="1682465409644" data-listing-reading-time-sort="8">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_cap09.html"> <p class="card-img-top"><img src="bim02/img/monteiro-lobato.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_cap09.html">
+<h3 class="no-anchor listing-title">
+Monteiro Lobato
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+O conteúdo desta página foi retirado de <span class="citation" data-cites="alvesVeredasPalavraVol2016c">ALVES e MARTIN (2016)</span> (pp.&nbsp;96-98).
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_cap09.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-listing-file-modified-sort="1682465194095" data-listing-reading-time-sort="10">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_cap03.html"> <p class="card-img-top"><img src="bim02/img/naturalismo-a.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_cap03.html">
+<h3 class="no-anchor listing-title">
+Naturalismo
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+O conteúdo desta página foi retirado de <span class="citation" data-cites="alvesVeredasPalavraVol2016b">ALVES e MARTIN (2016)</span> (pp.&nbsp;308-312).
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_cap03.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-listing-file-modified-sort="1682465093210" data-listing-reading-time-sort="10">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_cap04.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_cap04.html">
+<h3 class="no-anchor listing-title">
+O Cortiço
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Nasceu em São Luís (MA), filho de portugueses. O pai e a mãe eram cultos.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_cap04.html">
+<div class="listing-author">
+Aluísio Azevedo
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-listing-file-modified-sort="1698940266415" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./aventuras-solo/bim02_cap02.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./aventuras-solo/bim02_cap02.html">
+<h3 class="no-anchor listing-title">
+Proposta de Carta Argumentativa
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Proposta de redação do processo seletivo: Carta de Reclamação (UFU 2023-2) Vagas Ociosas
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./aventuras-solo/bim02_cap02.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-listing-file-modified-sort="1682357026864" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_cap02.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_cap02.html">
+<h3 class="no-anchor listing-title">
+Proposta de Carta Argumentativa
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Proposta de redação do processo seletivo: Carta de Reclamação (UFU 2023-2) Vagas Ociosas
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_cap02.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-listing-file-modified-sort="1685146491872" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./bim02/bim02_cap05.html"> <p class="card-img-top"><img src="bim02/img/pre-modernismo-a.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./bim02/bim02_cap05.html">
+<h3 class="no-anchor listing-title">
+Pré-Modernismo
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+O conteúdo desta página foi retirado de <span class="citation" data-cites="alvesVeredasPalavraVol2016c">ALVES e MARTIN (2016)</span> (pp.&nbsp;383-85).
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./bim02/bim02_cap05.html">
+<div class="listing-author">
+Aluísio Azevedo
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-listing-file-modified-sort="1698939449221" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./rpg-solo/quill.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./rpg-solo/quill.html">
+<h3 class="no-anchor listing-title">
+QUILL
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+ERRO 404
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./rpg-solo/quill.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="RPG Solo,Quill,Aventura Solo" data-listing-date-sort="1698807600000" data-listing-file-modified-sort="1698941285753" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./aventuras-solo/bim02_cap01.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./aventuras-solo/bim02_cap01.html">
+<h3 class="no-anchor listing-title">
+QUILL, uma aventura apocalíptica: 1ª Cena
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RPG Solo'); return false;">
+RPG Solo
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quill'); return false;">
+Quill
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Aventura Solo'); return false;">
+Aventura Solo
+</div>
+</div>
+<a href="./aventuras-solo/bim02_cap01.html">
+<div class="listing-description">
+Recentemente, descobri o RPG Solo QUILL, que tem uma proposta bem diferente. O objetivo não é explorar ou lutar, mas escrever uma carta.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./aventuras-solo/bim02_cap01.html">
+<div class="listing-date">
+1 de nov. de 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-listing-file-modified-sort="1698940093126" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./aventuras-solo/quill.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./aventuras-solo/quill.html">
+<h3 class="no-anchor listing-title">
+Quill, uma aventura apocalíptica (1º Cenário)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+[Linguagem:: Média] 3d6 [Coração:: Bom] 3d6 [Caligrafia:: Pobre] 1d6
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./aventuras-solo/quill.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-listing-file-modified-sort="1698939506473" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./rpg-solo/rpg-solo.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./rpg-solo/rpg-solo.html">
+<h3 class="no-anchor listing-title">
+RPG Solo
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./rpg-solo/rpg-solo.html"> </a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+Nenhum item correspondente
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -371,7 +850,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  let localAlternateSentinel = 'alternate';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
@@ -614,8 +1093,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./bim01/bim01_.html" class="pagination-link">
-        <span class="nav-page-text">1º BIMESTRE</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./rpg-solo/rpg-solo.html" class="pagination-link">
+        <span class="nav-page-text">RPG Solo</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

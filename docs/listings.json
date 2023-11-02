@@ -10,16 +10,24 @@
   {
     "listing": "/index.html",
     "items": [
-      "/bim01/bim01_.html",
       "/bim02/bim02_.html",
-      "/bim02/bim02_cap06_.html",
-      "/bim02/bim02_cap07_.html",
+      "/bim02/bim02_cap06.html",
+      "/aventuras-solo/aventuras-solo.html",
       "/bim02/bim02_cap01.html",
-      "/bim02/bim02_cap05_.html",
+      "/rpg-solo/dominus.html",
+      "/aventuras-solo/dominus.html",
+      "/bim02/bim02_cap07.html",
+      "/bim02/bim02_cap08.html",
+      "/bim02/bim02_cap09.html",
       "/bim02/bim02_cap03.html",
       "/bim02/bim02_cap04.html",
+      "/aventuras-solo/bim02_cap02.html",
       "/bim02/bim02_cap02.html",
-      "/bim01/bim01_cap01.html"
+      "/bim02/bim02_cap05.html",
+      "/rpg-solo/quill.html",
+      "/aventuras-solo/bim02_cap01.html",
+      "/aventuras-solo/quill.html",
+      "/rpg-solo/rpg-solo.html"
     ]
   },
   {
@@ -48,6 +56,24 @@
       "/bim02/bim02_cap03.html",
       "/bim02/bim02_cap04.html",
       "/bim02/bim02_cap02.html"
+    ]
+  },
+  {
+    "listing": "/aventuras-solo/bim02_cap01.html",
+    "items": [
+      "/aventuras-solo/aventuras-solo.html",
+      "/aventuras-solo/dominus.html",
+      "/aventuras-solo/bim02_cap02.html",
+      "/aventuras-solo/quill.html"
+    ]
+  },
+  {
+    "listing": "/aventuras-solo/quill.html",
+    "items": [
+      "/aventuras-solo/aventuras-solo.html",
+      "/aventuras-solo/dominus.html",
+      "/aventuras-solo/bim02_cap02.html",
+      "/aventuras-solo/bim02_cap01.html"
     ]
   }
 ]

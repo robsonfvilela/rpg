@@ -1,0 +1,72 @@
+---
+title: "Quill, uma aventura apocalíptica (1º Cenário)"
+#author: "Tristan O'Malley"
+#date: "2023-11-01"
+#date-modified: "2023-11-01"
+---
+
+<!-- ![](thumbnail.jpg) -->
+
+
+# ⫸ Quill, uma aventura apocalíptica (1º Cenário)
+
+
+
+## Personagem: JOGADOR
+
+[Linguagem:: Média] 3d6
+[Coração:: Bom] 3d6
+[Caligrafia:: Pobre] 1d6
+
+[Habilidade:: Inspiração]: +1d6 em testes de Linguagem.
+
+[Regra:: -1d6 em Testes de Caligrafia]: Você está muito cansado e já não consegue mais raciocinar direito.
+
+Um dia você estava se preparando para a grande final do campeonato regional e no outro estava lutando pela sua sobrevivência em um mundo infestado por mortos-vivos.
+
+
+## 1º Cenário: *Em busca de um novo abrigo*
+
+> ```
+Linguagem: [Cabana/**Abrigo**] [2, 5 e 6] +1
+Coração (Floreio): [3, 5, 3] +2
+Caligrafia: [4] +0
+````
+
+Faz uma semana, se me lembro bem, que estou vagando por esta região. Estou exausto e preciso de um *abrigo seguro*, pois não sei se posso garantir minha segurança sozinho... Minhas forças já estão me deixando.
+
+
+Linguagem: [**Salvo**/Seguro] [2, 4, 1] +0
+> Coração (Floreio): [] -
+> Caligrafia: [6] +1
+
+
+Não me sinto a *salvo* onde estou. É uma velha casa caindo aos pedaços. As paredes não podem me proteger por muito tempo. Sei que é pedir muito de alguém que não me conhece, mas preciso de ajuda. 
+
+> ```
+Linguagem: [**Inferno**/Apocalipse] [1, 4, 4] +0
+Coração (Floreio): [3, 4, 4] +0
+Caligrafia: [4] +0
+```
+
+Estou exausto e sem muitas forças, mas se me aceitar em sua comunidade, com um ou dois dias eu me recupero e posso ajudar de muitas formas, principalmente em trabalhos manuais. Não sei detalhes, mas imagino que estejam precisando de ajuda para sobreviverem a este *inferno*.
+
+> ```
+Linguagem: [**Chefe**/Líder] [2, 2, 3] +0
+Coração (Floreio): [3, 1, 4] +0
+Caligrafia: [4] +0
+````
+Não me restam muitas opções. Aliás, não acho que me reste qualquer outra opção a não ser recorrer a você, *chefe* da comunidade, para pedir ajuda e me ajudar a sobreviver.
+
+Linguagem: [Durar/**Sobreviver**] [6, 6, 1] +1
+Coração (Floreio): [2, 4, 1]
+Caligrafia: [1] +0
+
+> *Sobreviver* é tudo que quero no momento. Já perdi família e amigos em meio a este apocalipse, mas não quero perder também minha vida. Sua ajuda é minha última opção!
+
+
+> [!danger] RESULTADO: 5 pontos
+> **5 a 7 Pontos:** apesar de entender sua situação, ele informa que não pode confiar em estranhos, pois existem muitas crianças e pessoas indefesas na cidade, de tal modo que não aceitaria um desconhecido vagando pelo vilarejo
+
+
+

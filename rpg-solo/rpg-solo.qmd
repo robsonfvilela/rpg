@@ -1,0 +1,17 @@
+---
+title: "RPG Solo"
+#author: "Tristan O'Malley"
+#date: "2023-04-21"
+#date-modified: "5/23/2021"
+---
+
+<!-- ![](thumbnail.jpg) -->
+
+## Atividades Avaliativas
+
+
+- `05,0`: Vistos (atividades feitas no caderno);
+- `02,0`: Avaliação Trimestral;
+- `03,0`: Parágrafo de introdução da redação do ENEM;
+- `05,0`: Avaliação de Concordância Verbal (Classroom);
+- `10,0`: Prova Bimestral.

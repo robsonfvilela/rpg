@@ -4,20 +4,27 @@ project:
 
 lang: pt
 
-#listing: 
-  #categories: true
+listing: 
+  categories: true
 
 book:
-  title: "Língua Portuguesa"
-  author: "Prof. Robson"
-  #date: "4/24/2023"
+  title: "🎲 RPG"
+  author: "Robson"
+  #date: "2023/11/02"
   page-navigation: true
   chapters:
     - index.qmd
     #- summary.qmd
-    - part: bim01/bim01_.qmd ### 1º BIMESTRE ###
+    - part: rpg-solo/rpg-solo.qmd ### 1º BIMESTRE ###
       chapters:
-          - bim01/bim01_cap01.qmd
+          - rpg-solo/dominus.qmd
+          - rpg-solo/quill.qmd
+    - part: aventuras-solo/aventuras-solo.qmd ### 1º BIMESTRE ###
+      chapters:
+          - aventuras-solo/dominus.qmd
+          - aventuras-solo/quill.qmd
+          - aventuras-solo/bim02_cap01.qmd
+          - aventuras-solo/bim02_cap02.qmd
     - part: bim02/bim02_.qmd ### 2º BIMESTRE ###
       chapters:
           - bim02/bim02_cap01.qmd ## Exemplo de Carta Argumentativa
@@ -50,8 +57,8 @@ bibliography: references.bib # exportar como "Better BibLaTeX"
 format:
   html:
     theme:
-      light: flatly #litera
       dark: superhero #darkly #flatly #sketchy #lux #litera #darkly #superhero
+      light: flatly #litera
     code-copy: true
     linestretch: 1.5 # Espaçamento de linha (padrão = 1.5)
     margin-left: 00mm
