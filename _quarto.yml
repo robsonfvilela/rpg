@@ -18,6 +18,7 @@ book:
     #- summary.qmd
     - part: rpg-solo/00-rpg-solo.qmd ### 1º BIMESTRE ###
       chapters:
+          - rpg-solo/dominus.qmd
           - rpg-solo/quill.qmd
     - part: aventura-solo/00-aventura-solo.qmd ### 1º BIMESTRE ###
       chapters:

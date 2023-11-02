@@ -1,0 +1,14 @@
+---
+title: "Dominus"
+author: "Iniciativa Dominus"
+#date: "2023-04-21"
+#date-modified: "5/23/2021"
+categories: [RPG Solo, Dominus]
+---
+
+<!-- ![](thumbnail.jpg) -->
+
+ERRO 404
+
+[Ob](dominus.md)
+

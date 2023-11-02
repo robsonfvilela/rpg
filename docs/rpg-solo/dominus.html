@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Iniciativa Dominus">
 
-<title>🎲 • RPG - QUILL, uma aventura apocalíptica: 1ª Cena</title>
+<title>🎲 • RPG - Dominus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../aventura-solo/00-aventura-solo.html" rel="prev">
+<link href="../rpg-solo/quill.html" rel="next">
+<link href="../rpg-solo/00-rpg-solo.html" rel="prev">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -74,9 +76,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -108,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aventura-solo/00-aventura-solo.html">✪ Aventura Solo</a></li><li class="breadcrumb-item"><a href="../aventura-solo/01-quill.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">QUILL, uma aventura apocalíptica: 1ª Cena</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rpg-solo/00-rpg-solo.html">✎ RPG Solo</a></li><li class="breadcrumb-item"><a href="../rpg-solo/dominus.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Dominus</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -153,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rpg-solo/dominus.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Página em Branco</span></a>
+  <a href="../rpg-solo/dominus.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Dominus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -174,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../aventura-solo/01-quill.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">QUILL, uma aventura apocalíptica: 1ª Cena</span></a>
+  <a href="../aventura-solo/01-quill.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">QUILL, uma aventura apocalíptica: 1ª Cena</span></a>
   </div>
 </li>
       </ul>
@@ -185,32 +187,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Índice</h2>
-   
-  <ul>
-  <li><a href="#o-jogo" id="toc-o-jogo" class="nav-link active" data-scroll-target="#o-jogo">⫸ O Jogo</a></li>
-  <li><a href="#o-personagem" id="toc-o-personagem" class="nav-link" data-scroll-target="#o-personagem">⫸ O Personagem</a></li>
-  <li><a href="#º-cenário-em-busca-de-um-novo-abrigo" id="toc-º-cenário-em-busca-de-um-novo-abrigo" class="nav-link" data-scroll-target="#º-cenário-em-busca-de-um-novo-abrigo">⫸ 1º Cenário: Em busca de um novo abrigo</a>
-  <ul class="collapse">
-  <li><a href="#objetivo" id="toc-objetivo" class="nav-link" data-scroll-target="#objetivo">Objetivo</a></li>
-  </ul></li>
-  <li><a href="#a-carta-que-escrevi" id="toc-a-carta-que-escrevi" class="nav-link" data-scroll-target="#a-carta-que-escrevi">⫸ A carta que escrevi</a></li>
-  <li><a href="#resultado" id="toc-resultado" class="nav-link" data-scroll-target="#resultado">⫸ Resultado</a></li>
-  <li><a href="#conclusão" id="toc-conclusão" class="nav-link" data-scroll-target="#conclusão">⫸ Conclusão</a></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Aventura Solo">Aventura Solo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RPG Solo">RPG Solo <span class="quarto-category-count">(1)</span></div></div></div>
+        
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QUILL">QUILL <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RPG Solo">RPG Solo <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">QUILL, uma aventura apocalíptica: 1ª Cena</span></h1>
+<h1 class="title"><span class="chapter-title">Dominus</span></h1>
   <div class="quarto-categories">
     <div class="quarto-category">RPG Solo</div>
-    <div class="quarto-category">QUILL</div>
-    <div class="quarto-category">Aventura Solo</div>
+    <div class="quarto-category">Dominus</div>
   </div>
   </div>
 
@@ -218,13 +205,13 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
-    
     <div>
-    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-heading">Autor</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">1 de novembro de 2023</p>
-    </div>
+             <p>Iniciativa Dominus </p>
+          </div>
   </div>
+    
   
     
   </div>
@@ -233,197 +220,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <!-- ![](thumbnail.jpg) -->
-<hr>
-<div id="fig-eemp" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="../img/quill-01.jpg" class="img-fluid figure-img" width="700"></p>
-<figcaption class="figure-caption">Figura&nbsp;3.1: Zumbi</figcaption>
-</figure>
-</div>
-<section id="o-jogo" class="level2">
-<h2 class="anchored" data-anchor-id="o-jogo">⫸ O Jogo</h2>
-<ul>
-<li><strong>Sistema:</strong> QUILL, uma aventura apocalíptica</li>
-<li><strong>Autora:</strong> Tainá Costa</li>
-<li><strong>Disponibilidade:</strong> PDF no Grupo Solo RPG (Facebook)</li>
-</ul>
-<p>Recentemente, descobri o RPG Solo QUILL, que tem uma proposta bem diferente. O objetivo não é explorar ou lutar, mas escrever uma carta.</p>
-<p>Fiz uma partida rápida usando uma adaptação feita pela Tainá Costa e que está disponível no Grupo Solo RPG, no Facebook. Nesta adaptação, você está num mundo em que aconteceu um apocalipse zumbi e você precisa, obviamente, sobreviver. A adaptação ficou bem divertida, mesmo para mim que às vezes sinto um pouco de preguiça quando o tema é zumbis.</p>
-</section>
-<section id="o-personagem" class="level2">
-<h2 class="anchored" data-anchor-id="o-personagem">⫸ O Personagem</h2>
-<p>Seguindo as orientações para criação do Personagem, escolhi como arquétipo o Jogador. O personagem pronto ficou assim:</p>
-<ul>
-<li><strong>Jogador (arquétipo):</strong> Um dia você estava se preparando para a grande final do campeonato regional e no outro estava lutando pela sua sobrevivência em um mundo infestado por mortos-vivos</li>
-<li><strong>Linguagem:</strong> Média 3d6</li>
-<li><strong>Coração:</strong> Bom 3d6</li>
-<li><strong>Caligrafia:</strong> Pobre 1d6</li>
-<li><strong>HabilidadeInspiração:</strong> +1d6 em testes de Linguagem.</li>
-<li><strong>Regra:</strong> -1d6 em Testes de Caligrafia: <em>Você está muito cansado e já não consegue mais raciocinar direito</em>.</li>
-</ul>
-</section>
-<section id="º-cenário-em-busca-de-um-novo-abrigo" class="level2">
-<h2 class="anchored" data-anchor-id="º-cenário-em-busca-de-um-novo-abrigo">⫸ 1º Cenário: Em busca de um novo abrigo</h2>
-<p>Antes de cada parágrafo, coloquei os resultados dos testes que fiz. Entre [] estão as rolagens de dados e na frente, a pontuação que recebi.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Linguagem: [Palavra Inferior/Palavra Superior] [Rolagens ] Pontuação</li>
-<li>Coração (Floreio): [Rolagens ] Pontuação</li>
-<li>Caligrafia: [Rolagens ] Pontuação</li>
-</ul>
-</div>
-</div>
-<section id="objetivo" class="level3">
-<h3 class="anchored" data-anchor-id="objetivo">Objetivo</h3>
-<p>Você vai escrever uma carta para o líder da comunidade: Kevin Garcia, um ex delegado que nos dias atuais não confia em muitas pessoas. Você precisa passar confiança nas suas palavras para ser aceito no grupo, conte sua história, de onde você veio e o que fez para sobreviver até aqui. Boa sorte.</p>
-<hr>
-</section>
-</section>
-<section id="a-carta-que-escrevi" class="level2">
-<h2 class="anchored" data-anchor-id="a-carta-que-escrevi">⫸ A carta que escrevi</h2>
-<div id="fig-eemp" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="../img/quill-02.jpg" class="img-fluid figure-img" width="700"></p>
-<figcaption class="figure-caption">Figura&nbsp;3.2: Zumbis</figcaption>
-</figure>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Rolagens do 1º Parágrafo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Linguagem: [Cabana/<strong>Abrigo</strong>] [2, 5 e 6] +1</li>
-<li>Coração (Floreio): [3, 5, 3] +2</li>
-<li>Caligrafia: [4] +0</li>
-</ul>
-</div>
-</div>
-<p>Faz uma semana, se me lembro bem, que estou vagando por esta região. Estou exausto e preciso de um <strong>abrigo</strong> <em>seguro</em>, pois não sei se posso garantir minha segurança sozinho… Minhas forças já estão me deixando.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Rolagens do 2º Parágrafo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Linguagem: [<strong>Salvo</strong>/Seguro] [2, 4, 1] +0</li>
-<li>Coração (Floreio): [] -</li>
-<li>Caligrafia: [6] +1</li>
-</ul>
-</div>
-</div>
-<p>Não me sinto a <strong>salvo</strong> onde estou. É uma velha casa caindo aos pedaços. As paredes não podem me proteger por muito tempo. Sei que é pedir muito de alguém que não me conhece, mas preciso de ajuda.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Rolagens do 3º Parágrafo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Linguagem: [<strong>Inferno</strong>/Apocalipse] [1, 4, 4] +0</li>
-<li>Coração (Floreio): [3, 4, 4] +0</li>
-<li>Caligrafia: [4] +0</li>
-</ul>
-</div>
-</div>
-<p>Estou exausto e sem muitas forças, mas se me aceitar em sua comunidade, com um ou dois dias eu me recupero e posso ajudar de muitas formas, principalmente em trabalhos manuais. Não sei detalhes, mas imagino que estejam precisando de ajuda para sobreviverem a este <strong>inferno</strong>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Rolagens do 4º Parágrafo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Linguagem: [<strong>Chefe</strong>/Líder] [2, 2, 3] +0</li>
-<li>Coração (Floreio): [3, 1, 4] +0</li>
-<li>Caligrafia: [4] +0</li>
-</ul>
-</div>
-</div>
-<p>Não me restam muitas opções. Aliás, não acho que me reste qualquer outra opção a não ser recorrer a você, <strong>chefe</strong> da comunidade, para pedir ajuda e me ajudar a sobreviver.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Rolagens do 5º Parágrafo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Linguagem: [Durar/<strong>Sobreviver</strong>] [6, 6, 1] +1</li>
-<li>Coração (Floreio): [2, 4, 1]</li>
-<li>Caligrafia: [1] +0</li>
-</ul>
-</div>
-</div>
-<p><strong>Sobreviver</strong> é tudo que quero no momento. Já perdi família e amigos em meio a este apocalipse, mas não quero perder também minha vida. Sua ajuda é minha última opção!</p>
-<hr>
-</section>
-<section id="resultado" class="level2">
-<h2 class="anchored" data-anchor-id="resultado">⫸ Resultado</h2>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<strong>Pontuação Final:</strong> 5 pontos
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>5 a 7 Pontos:</strong> apesar de entender sua situação, ele informa que não pode confiar em estranhos, pois existem muitas crianças e pessoas indefesas na cidade, de tal modo que não aceitaria um desconhecido vagando pelo vilarejo.</p>
-</div>
-</div>
-</section>
-<section id="conclusão" class="level2">
-<h2 class="anchored" data-anchor-id="conclusão">⫸ Conclusão</h2>
-<p>A sorte não estava comigo nos dados e acabei não conseguindo meu objetivo. Também esqueci de usar minha Habilidade.</p>
-<p>Outra coisa importante a dizer é que os parágrafos ficaram muito curtos. Eu poderia ter explorado mais e escrito um texto maior.</p>
-<p>Mas, de maneira geral, para uma primeira expriência, não foi ruim.</p>
+<p>ERRO 404</p>
+<p><a href="dominus.md">Ob</a></p>
 
 
 
-</section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="RPG Solo,Aventura Solo" data-listing-file-modified-sort="1698944446813" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="RPG Solo,QUILL" data-listing-file-modified-sort="1698944433290" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="../aventura-solo/00-aventura-solo.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../rpg-solo/quill.html"> <p class="card-img-top"><img src="../img/quill-01.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
-<a href="../aventura-solo/00-aventura-solo.html">
+<a href="../rpg-solo/quill.html">
 <h3 class="no-anchor listing-title">
-✪ Aventura Solo
+QUILL
 </h3>
 <div class="listing-subtitle">
 
@@ -433,18 +245,50 @@ Rolagens do 5º Parágrafo
 <div class="listing-category" onclick="window.quartoListingCategory('RPG Solo'); return false;">
 RPG Solo
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Aventura Solo'); return false;">
-Aventura Solo
+<div class="listing-category" onclick="window.quartoListingCategory('QUILL'); return false;">
+QUILL
 </div>
 </div>
-<a href="../aventura-solo/00-aventura-solo.html">
+<a href="../rpg-solo/quill.html">
 <div class="listing-description">
-
+ 
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="../aventura-solo/00-aventura-solo.html"> </a>
+<a href="../rpg-solo/quill.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="RPG Solo" data-listing-date-sort="1698807600000" data-listing-file-modified-sort="1698944279712" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="../rpg-solo/00-rpg-solo.html"> <p class="card-img-top"><img src="../img/quill-01.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="../rpg-solo/00-rpg-solo.html">
+<h3 class="no-anchor listing-title">
+✎ RPG Solo
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RPG Solo'); return false;">
+RPG Solo
+</div>
+</div>
+<a href="../rpg-solo/00-rpg-solo.html">
+<div class="listing-description">
+ 
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../rpg-solo/00-rpg-solo.html">
+<div class="listing-date">
+1 de nov. de 2023
+</div>
+</a>
 </div>
 </div>
 </div>
@@ -802,11 +646,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../aventura-solo/00-aventura-solo.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">✪ Aventura Solo</span>
+      <a href="../rpg-solo/00-rpg-solo.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">✎ RPG Solo</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../rpg-solo/quill.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">QUILL</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -77,5 +77,20 @@
     "items": [
       "/rpg-solo/00-rpg-solo.html"
     ]
+  },
+  {
+    "listing": "/rpg-solo/dominus.html",
+    "items": [
+      "/rpg-solo/quill.html",
+      "/rpg-solo/00-rpg-solo.html"
+    ]
+  },
+  {
+    "listing": "/rpg-solo/dominus-obsidian.html",
+    "items": [
+      "/rpg-solo/dominus.html",
+      "/rpg-solo/quill.html",
+      "/rpg-solo/00-rpg-solo.html"
+    ]
   }
 ]
