@@ -1,0 +1,61 @@
+---
+title: "2º BIMESTRE"
+#author: "Tristan O'Malley"
+#date: "2023-04-21"
+#date-modified: "5/23/2021"
+#categories: [UFU, Gêneros Textuais, Carta Argumentativa]
+---
+
+<!-- ![](thumbnail.jpg) -->
+
+## Conteúdo
+
+Lista de conteúdos básicos que serão estudados ao longo do 2º bimestre de 2023. Note que os conteúdos estão organizados por categorias e não pela ordem cronológica em que serão trabalhados.^[Dependendo do tempo disponível, outros conteúdos poderão ser acrescentados para complementar os estudos.]
+
+### Gramática
+
+- Regência Verbal
+	- Verbos mais comuns; <!-- apresentar os verbos aos poucos --> 
+	- Crase.
+
+### Literatura
+
+- Naturalismo
+	- O Cortiço, de Aluísio Azevedo.
+- Pré-Modernismo
+	- Os Sertões, de Euclides da Cunha;
+	- Triste fim de Policarpo Quaresma, de Lima Barreto.
+
+### Interpretação e Produção de Textos
+
+- Carta Argumentativa (solicitação, reclamação);
+- Carta Aberta.
+
+## Atividades em sala de aula
+
+- `Atividade A`: Questões sobre o texto *A glória do falso*, (carta artumentativa) de Moacyr Scliar;
+- `Atividade B`:Escrever uma carta arumentativa sobre o tema das áreas de risco;
+- `Atividade C`: O cortiço, de Aluísio Azevedo;
+- `Atividade D`: Os sertões, de Euclides da Cunha;
+- `Atividade E`: Escrever um Parágrafo de Desenvolvimento;
+- `Atividade F`: Triste fim de Policarpo Quaresma, de Lima Barreto;
+- `Atividade G`: Moderna Plus: o corpo se expressa (pp. 119-120, 1 a 6); <!-- Sobre a tirinha do Armandinho -->
+- `Atividade H`: Moderna Plus: o corpo se expressa (pp. 127-128, 1 a 9); <!-- Murundu polissêmico -->
+- `Atividade I`: Português contemporâneo (pp. 75-76, 1 a 6); <!-- Regência Verbal -->
+- `Atividade J`: Português contemporâneo (pp. 77-80, 1 a 8); <!-- Regência Verbal -->
+- `Atividade K`: 
+
+
+## Atividades Avaliativas
+
+- `10,0`: Prova bimestral;
+- `03,0`: Vistos (atividades feitas no caderno);
+- `03,0`: Parágrafo de desenvolvimento da redação do ENEM;
+- `09,0`: Participação em sala^[**Durante as aulas:** ter atenção às exposições de conteúdo; fazer perguntas pertinentes; perticipar com comentários e observações que acrescentem ao conteúdo; (esforçar-se para) responder às perguntas feitas pelo professor a respeito do conteúdo e, também, não atrapalhar o andamento da aula.]
+
+---
+
+
+[Exemplo de Carta Argumentativa](bim02_cap01.qmd): crônica de Moacyr Scliar.
+
+[Proposta de Carta Argumentativa](bim02_cap02.qmd): tema áreas de risco.

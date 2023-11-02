@@ -1,0 +1,45 @@
+# Prefácio {.unnumbered}
+
+
+
+---
+
+::: {layout="[[1], [1]]"}
+![Surus](img/logo-eemp.png){#fig-eemp width=300px}
+![Hanno](img/logo-unesco.jpg){#fig-peaunesco width=300px}
+
+:::
+
+---
+
+
+![](img/logo-letras.jpg){#fig-peaunesco width=608px}
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------------
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{r}
+1 + 1
+```
+
+@knuth84
+-->

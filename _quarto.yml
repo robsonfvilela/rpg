@@ -1,0 +1,80 @@
+project:
+  type: book
+  output-dir: docs
+
+lang: pt
+
+#listing: 
+  #categories: true
+
+book:
+  title: "Língua Portuguesa"
+  author: "Prof. Robson"
+  #date: "4/24/2023"
+  page-navigation: true
+  chapters:
+    - index.qmd
+    #- summary.qmd
+    - part: bim01/bim01_.qmd ### 1º BIMESTRE ###
+      chapters:
+          - bim01/bim01_cap01.qmd
+    - part: bim02/bim02_.qmd ### 2º BIMESTRE ###
+      chapters:
+          - bim02/bim02_cap01.qmd ## Exemplo de Carta Argumentativa
+          - bim02/bim02_cap02.qmd ## Proposta de Carta Argumentativa
+          - bim02/bim02_cap03.qmd ## Naturalismo
+          - bim02/bim02_cap04.qmd ## O Cortiço
+          - bim02/bim02_cap05.qmd ## Pré-Modernismo
+          - bim02/bim02_cap06.qmd ## Augusto dos Anjos
+          - bim02/bim02_cap07.qmd ## Euclides da Cunha
+          - bim02/bim02_cap08.qmd ## Lima Barreto
+          - bim02/bim02_cap09.qmd ## Monteiro Lobato
+    #- references.qmd
+  #appendices:
+    #- cap_01.qmd
+    #- cap_01.qmd
+  page-footer:
+    center: 
+      - text: "Prefácio"
+        href: index.qmd
+
+#sidebar: 
+  #collapse: true
+
+number-sections: false
+    
+    
+bibliography: references.bib # exportar como "Better BibLaTeX"
+#csl: abnt-ufmg.csl # NÃO USAR!!!
+
+format:
+  html:
+    theme:
+      light: flatly #litera
+      dark: superhero #darkly #flatly #sketchy #lux #litera #darkly #superhero
+    code-copy: true
+    linestretch: 1.5 # Espaçamento de linha (padrão = 1.5)
+    margin-left: 00mm
+    margin-right: 00mm
+    margin-top: 00mm
+    margin-bottom: 00mm
+  pdf:
+    documentclass: scrreprt
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
+highlight-style: pygments
+
+editor: source
+
+reference-location: margin
+citation-location: margin
+fig-cap-location: bottom
+tbl-cap-location: top
+fig-align: center
+
+fontsize: 16px # Default: 18px

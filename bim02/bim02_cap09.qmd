@@ -1,0 +1,77 @@
+---
+title: "Monteiro Lobato"
+#author: "Aluísio Azevedo"
+#date: "2023-04-21"
+#date-modified: "5/23/2021"
+#categories: [Literatura Brasileira, Pré-Modernismo]
+---
+
+<!-- ![](thumbnail.jpg) -->
+
+- - -
+
+:::{.callout-margin}
+O conteúdo desta página foi retirado de @alvesVeredasPalavraVol2016c (pp. 96-98).
+:::
+
+## Monteiro Lobato: o Brasil passado a limpo
+
+Homem atuante, Monteiro Lobato afirmava que “um país se faz com homens e livros”. Encantou-se desde cedo com o prazer e as possibilidades que o mundo da leitura apresenta e elegeu a escrita como uma de suas principais atividades ao longo da vida. Seu papel como editor foi determinante para a ampliação do acesso à leitura no país.
+
+
+:::{.column-margin}
+![Monteiro Lobato](img/monteiro-lobato.jpg)
+
+José Bento **Monteiro Lobato** nasceu em Taubaté, interior paulista, em 1882. Formado em Direito, trabalhou como procurador público e colaborou com a imprensa. Em 1911, herdou a fazenda Buquira de seu avô, o visconde de Tremembé. Em 1918, comprou a *Revista do Brasil* e fundou a Editora Monteiro Lobato. Em 1925, fundou a Companhia Editora Nacional, que foi a pioneira das grandes editoras brasileiras, e, posteriormente, participou da fundação da Editora Brasiliense. Em 1948, morreu em decorrência de um acidente vascular cerebral (AVC).
+
+:::
+
+Também foi influente na cultura brasileira, não só como escritor, mas como um intelectual que se propôs a pensar o Brasil. Produziu obras de literatura infantil e empenhou-se em oferecer às crianças um contato com o folclore brasileiro, numa época em que a maior parte dos livros infantojuvenis era estrangeira e apresentava uma linguagem pouco flexível e adaptada a esse público leitor.
+
+::: {.callout-important}
+[...] a Monteiro Lobato & Cia. publicou diversos livros didáticos, gramáticas, aritméticas, cartilhas e, cada vez mais, livros infantojuvenis, estes, na verdade, majoritariamente de autoria do próprio Lobato. Descontente com a má qualidade dos títulos disponíveis no mercado destinados às primeiras letras – boa parte deles literatura estrangeira –, Lobato decide ele mesmo escrever para crianças. [...]
+
+Novos autores, obras com temas nacionais e na ordem do dia, distribuição competente e divulgação sistemática das publicações, edições de boa qualidade e apuro gráfico, diversificação e segmentação de públicos constituem, enfim, um conjunto de aspectos na base do sucesso do empreendimento editorial de Lobato, que conduz a vendas e tiragens dificilmente imagináveis pelos profissionais do livro, no Brasil, até o início da década de 1920. [...]
+
+> CECCANTINI, João Luís. De raro poder fecundante: Lobato editor. In: LAJOLO, Marisa; CECCANTINI, João Luís. (Org.). *Monteiro Lobato livro a livro*. São Paulo: Unesp; Imprensa Oficial do Estado de São Paulo, 2008. p. 77-78.
+:::
+
+Como escritor de literatura adulta, produziu não apenas contos regiona- listas, como também artigos que tratavam de assuntos do interesse do Brasil, como a reprovação às queimadas na agricultura e a defesa da busca por petróleo no território nacional, num período em que a descrença dominava. Polêmico, criticou duramente a exposição da artista plástica Anita Malfatti, em artigo publicado no ano de 1917. Lobato deixou como herança uma obra ao mesmo tempo moderna e conservadora, mas que não se furtou aos desafios de seu tempo.
+
+Esse traço conservador/renovador marca a obra adulta de Lobato. Sua prosa apresenta certa ousadia, especialmente temática, mas ainda mantém um caráter convencional, tradicional, seja na forma, seja na linguagem.
+
+O cenário dos contos lobatianos é quase sempre o mesmo: Itaoca – uma cidade no Vale do Paraíba, onde se encontram as chamadas “cidades mortas”, devastadas econômica e ambientalmente pela monocultura de café. A Itaoca de Lobato é uma cidade decadente, marcada pelo atraso e por disputas políticas. O tom dos contos é muitas vezes moralista, como se o escritor se esfor- çasse por levar o leitor a partilhar de sua indignação pelo descaso das autoridades diante de temas que ele considera de interesse nacional: como melhorar a qualidade de vida dos moradores dessas cidades? Como convencer o homem do campo a cuidar da saúde, a ser mais ativo e organizado na lavoura? Como convencer os agricultores de que a queimada prejudica o solo? Esses são as- suntos que Lobato se propôs a discutir em seus escritos, de modo às vezes inflamado, às vezes irônico.
+
+Monteiro Lobato, como escritor, comprometeu-se com temas de interesse nacional, partilhando com Euclides da Cunha e Lima Barreto o empenho pré-modernista em investigar e entender o Brasil. No caso de Lobato, esse interesse tem um tom didático: o escritor pretendia mesmo passar o Brasil a limpo.
+
+Nesse esforço “reformatório”, Lobato criou um personagem símbolo, o Jeca Tatu, em quem ele concentrou o estereótipo da ignorância, da preguiça e da acomodação. Inicialmente apontado como o responsável por seus problemas, Jeca Tatu foi absolvido quando Lobato percebeu que questões sanitárias e de saúde pública eram responsáveis pela situação em que viviam os vários jecas-tatus que povoavam o Brasil.
+
+Se o universo rural de Itaoca e do Jeca Tatu é foco de críticas e de uma tentativa de transformação do *status quo*, o Sítio do Pica-Pau-Amarelo, espaço central de suas narrativas infantis, é o lugar da utopia, no qual os embates se resolvem de forma amigável. Mesmo os conflitos de cunho escravocrata são aplacados por meio do afeto: os personagens negros, Tio Barnabé e Tia Nastácia, figuram como uma espécie de herança cultural e, ao mesmo tempo que compõem o cenário do sítio, perpetuam passivamente a situação de mando vivida até fins do século XIX.
+
+Essa alternância entre o moderno e o conservador marca a obra de Lobato e explica seu descontentamento ante o Modernismo, que iria prevalecer a partir de 1922.
+
+Entre as principais obras ficcionais adultas de Monteiro Lobato podem ser citadas *Urupês* (1918), *Cidades mortas* (1919) e *Negrinha* (1920). No rol da muitas obras infantojuvenis, merecem destaque, entre tantas outras, *Reinações de Narizinho* (1931), *As caçadas de Pedrinho* (1933), *Emília no País da Gramática* (1934) e *O poço do Visconde* (1937).
+
+## A infância reinventada na obra de Monteiro Lobato
+
+Ao criar o universo fantástico do Sítio do Pica-Pau-Amarelo, povoado por crianças curiosas e seres mágicos, Monteiro Lobato foi responsável por estabe- lecer um novo padrão na literatura infantojuvenil brasileira. Contrapondo-se a uma literatura incipiente, sisuda, linguisticamente tradicional, a escrita de Lobato trouxe a fantasia, o lúdico e o didático a um nível artístico capaz de se- duzir leitores por décadas.
+O pensamento arrojado do autor que buscava reformar o Brasil aparece representado na figura da boneca Emília. Contestadora e irreverente, ela encar- na o espírito lobatiano, nunca se conformando com o estabelecido, guiada pelo prazer da descoberta e pelo desejo de reformar o mundo, de suplantar o senso comum.
+Paralelamente ao desvendamento do universo folclórico do país, habitado por sacis, cucas e curupiras, a obra de Lobato se dispôs a apresentar a tradição europeia para as crianças brasileiras. Contos de fada, mitos gregos, as histórias de Pinóquio, Peter Pan e Dom Quixote são algumas das narrativas que o leitor conhece por meio dos serões de Dona Benta.
+
+Nesse ritual de contação de histórias, Lobato reescreveu os textos ao seu estilo, abrasileirando-os. Com linguagem original, recheada de coloquialismos, suas narrativas retomam os textos tradicionais e os ampliam, numa atualização que aproxima os jovens leitores ao mesmo tempo em que os conduz à reflexão e privilegia a formação do senso crítico.
+
+Na esteira de Lobato, outros escritores ganharam destaque escrevendo para crianças e jovens, entre eles Cecília Meireles, Vinicius de Moraes, Lygia Bojunga, Ana Maria Machado, João Carlos Marinho e Ruth Rocha.
+
+
+## A infância reinventada na obra de Monteiro Lobato
+
+Ao criar o universo fantástico do Sítio do Pica-Pau-Amarelo, povoado por crianças curiosas e seres mágicos, Monteiro Lobato foi responsável por estabelecer um novo padrão na literatura infantojuvenil brasileira. Contrapondo-se a uma literatura incipiente^[**incipiente**: que está no começo, principiante.], sisuda^[**sisuda**: séria, circunspecta.], linguisticamente tradicional, a escrita de Lobato trouxe a fantasia, o lúdico e o didático a um nível artístico capaz de seduzir leitores por décadas.
+
+O pensamento arrojado do autor que buscava reformar o Brasil aparece representado na figura da boneca Emília. Contestadora e irreverente, ela encarna o espírito lobatiano, nunca se conformando com o estabelecido, guiada pelo prazer da descoberta e pelo desejo de reformar o mundo, de suplantar o senso comum.
+
+Paralelamente ao desvendamento do universo folclórico do país, habitado por sacis, cucas e curupiras, a obra de Lobato se dispôs a apresentar a tradição europeia para as crianças brasileiras. Contos de fada, mitos gregos, as histórias de Pinóquio, Peter Pan e Dom Quixote são algumas das narrativas que o leitor conhece por meio dos serões de Dona Benta.
+
+Nesse ritual de contação de histórias, Lobato reescreveu os textos ao seu estilo, abrasileirando-os. Com linguagem original, recheada de coloquialismos, suas narrativas retomam os textos tradicionais e os ampliam, numa atualização que aproxima os jovens leitores ao mesmo tempo em que os conduz à reflexão e privilegia a formação do senso crítico.
+
+Na esteira de Lobato, outros escritores ganharam destaque escrevendo para crianças e jovens, entre eles Cecília Meireles, Vinicius de Moraes, Lygia Bojunga, Ana Maria Machado, João Carlos Marinho e Ruth Rocha.
+
