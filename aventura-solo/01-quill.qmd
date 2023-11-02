@@ -33,7 +33,7 @@ Seguindo as orientações para criação do Personagem, escolhi como arquétipo 
 - **HabilidadeInspiração:** +1d6 em testes de Linguagem.
 - **Regra:** -1d6 em Testes de Caligrafia: *Você está muito cansado e já não consegue mais raciocinar direito*.
 
-## ⫸ O1º Cenário: Em busca de um novo abrigo
+## ⫸ 1º Cenário: Em busca de um novo abrigo
 
 Antes de cada parágrafo, coloquei os resultados dos testes que fiz. Entre [] estão as rolagens de dados e na frente, a pontuação que recebi.
 
@@ -104,3 +104,14 @@ Não me restam muitas opções. Aliás, não acho que me reste qualquer outra op
 # **Pontuação Final:** 5 pontos
 **5 a 7 Pontos:** apesar de entender sua situação, ele informa que não pode confiar em estranhos, pois existem muitas crianças e pessoas indefesas na cidade, de tal modo que não aceitaria um desconhecido vagando pelo vilarejo.
 :::
+
+## ⫸ Conclusão
+
+A sorte não estava comigo nos dados e acabei não conseguindo meu objetivo. Também esqueci de usar minha Habilidade.
+
+Outra coisa importante a dizer é que os parágrafos ficaram muito curtos. Eu poderia ter explorado mais e escrito um texto maior.
+
+Mas, de maneira geral, para uma primeira expriência, não foi ruim.
+
+
+
