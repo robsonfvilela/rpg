@@ -56,7 +56,7 @@ format:
   html:
     theme:
       dark: superhero #darkly #flatly #sketchy #lux #litera #darkly #superhero
-      light: flatly #litera
+      #light: flatly #litera
     code-copy: true
     linestretch: 1.5 # Espaçamento de linha (padrão = 1.5)
     margin-left: 00mm
