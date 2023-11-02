@@ -1,0 +1,15 @@
+---
+title: "RPG Solo"
+#author: "Tristan O'Malley"
+date: "2023-11-01"
+#date-modified: "5/23/2021"
+categories: [RPG Solo]
+---
+
+<!-- ![](thumbnail.jpg) -->
+
+- - -
+
+![Zumbi](../img/quill-01.jpg){#fig-eemp width=700px}
+
+## ⫸ O Jogo
